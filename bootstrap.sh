@@ -37,6 +37,6 @@ else
   run_elevated "apt-get install --yes git" > /dev/null
 fi
 
-git clone https://github.com/highghlow/umbrel-install-script /tmp/uis
+git clone https://github.com/vitorbgs/umbrel-old /tmp/uis
 cd /tmp/uis
 bash install.sh
